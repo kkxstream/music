@@ -30,7 +30,7 @@ function Showcase(props) {
      * Main function that fetches homepage API sets the homepage data
      */
     const setHomepageData = async () => {
-        let uri = "https://jiosaavn-api-codyandersan.vercel.app/modules?language=hindi"
+        let uri = "https://jiosaavn-api-codyandersan.vercel.app/modules?language=tamil"
 
         props.setProgress(30)
         let data = await fetch(uri)
@@ -109,7 +109,7 @@ function Showcase(props) {
 
     useEffect(() => {
         document.body.scrollTop = document.documentElement.scrollTop = 0; //scroll to top of page
-        document.title = "Popular Now - TuneStation"
+        document.title = "Popular Now - Kkxstreammusic"
         setHomepageData()
     }, [])
 
