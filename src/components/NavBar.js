@@ -9,7 +9,7 @@ function NavBar(props) { //toggleTheme
             <header>
                 <nav className="flex flex-wrap items-center justify-between w-full py-2 md:py-3 px-4 text-lg fixed top-0 z-50 dark:text-gray-700 text-gray-400 dark:bg-light-200 bg-deep-900 body-font">
                     <Link to='/' className="flex title-font font-medium items-center dark:text-black text-white my-1 md:mb-0">
-                        <img src={logo} className='h-10 w-40 rounded-xl' alt="" />
+                        <img src={logo} className='h-10 w-50 rounded-xl' alt="" />
                         <span className="hidden ml-3 text-xl md:inline-block ">DreamlyMusic</span>
                     </Link>
 
