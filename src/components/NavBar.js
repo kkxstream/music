@@ -9,8 +9,8 @@ function NavBar(props) { //toggleTheme
             <header>
                 <nav className="flex flex-wrap items-center justify-between w-full py-2 md:py-3 px-4 text-lg fixed top-0 z-50 dark:text-gray-700 text-gray-400 dark:bg-light-200 bg-deep-900 body-font">
                     <Link to='/' className="flex title-font font-medium items-center dark:text-black text-white my-1 md:mb-0">
-                        <img src={logo} className='h-8 w-40 rounded-xl' alt="" />
-                        <span className="hidden ml-3 text-xl md:inline-block ">DreamlyMusic</span>
+                        <img src={logo} className='h-10 w-30 rounded-xl' alt="" />
+                        <span className="hidden ml-3 text-xl md:inline-block "></span>
                     </Link>
 
                     <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" onClick={() => document.getElementById("menu").classList.toggle('hidden')} className="h-6 w-6 cursor-pointer md:hidden block"
