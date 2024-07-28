@@ -90,7 +90,7 @@ function Showcase(props) {
         let data_showcase = []
         let count = 0
         while (count < 10) {
-            if (data_showcase.length === 4) break
+            if (data_showcase.length === 8) break
             // if song index exists:    
             if (data[count] && data[count].type == type) {
                 let data_name = data[count]["name"] ? data[count]["name"] : data[count]["title"]
