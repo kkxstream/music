@@ -20,13 +20,13 @@ function Items(props) { //song object, onClick function
         } while (elem = elem.nextSibling)
 
         if (sibs.length === 1) {
-            return document.getElementById(props.song.id).classList.add("p-2", "w-full")
+            return document.getElementById(props.song.id).classList.add("p-4", "w-full")
         }
         if (sibs.length === 2) {
-            return document.getElementById(props.song.id).classList.add("p-2", "md:w-1/2", "w-full")
+            return document.getElementById(props.song.id).classList.add("p-4", "md:w-2/4", "w-full")
         }
         else {
-            return document.getElementById(props.song.id).classList.add("p-2", "lg:w-1/3", "md:w-1/2", "w-full")
+            return document.getElementById(props.song.id).classList.add("p-4", "lg:w-1/3", "md:w-2/4", "w-full")
         }
     }
 
