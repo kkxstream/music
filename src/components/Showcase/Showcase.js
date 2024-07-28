@@ -96,7 +96,7 @@ function Showcase(props) {
                 let data_name = data[count]["name"] ? data[count]["name"] : data[count]["title"]
                 data_showcase.push({
                     name: data_name,
-                    image: data[count]["image"][4]["link"],
+                    image: data[count]["image"][2]["link"],
                     id: data[count]["id"]
                 })
             }
