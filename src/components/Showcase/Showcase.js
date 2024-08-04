@@ -18,7 +18,7 @@ function Showcase(props) {
 
     const [playlists, setPlaylists] = useState([])
     const [charts, setCharts] = useState([])
-    const [artist_radio, setArtistRadio] = useState([])
+    const [artists, setArtists] = useState([])
 
     const searchFromId = async (id) => {
         let raw_resp = await fetch(`https://jiosaavn-api-codyandersan.vercel.app/songs?id=${id}`)
@@ -56,7 +56,7 @@ function Showcase(props) {
         setCharts(getShowcase(resp["data"]["charts"], "playlist"))
 
         //Artist:
-        setArtistRadio(getShowcase(resp["data"]["artist"], "artist"))
+        setArtists(getShowcase(resp["data"]["artists"], "radio"))
 
         props.setProgress(100)
     }
@@ -141,7 +141,7 @@ function Showcase(props) {
                     <Playlists playlists={playlists} setPlaylistId={props.setPlaylistId} />
 
                     <Heading title="Recommended Artist Stations" />
-                    <Playlists playlists={artist_radio} setArtistId={props.setArtistId} />
+                    <Playlists playlists={artists} setArtistsId={props.setArtistsId} />
         
                 </div>
             </section>
