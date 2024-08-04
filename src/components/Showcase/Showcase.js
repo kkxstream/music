@@ -30,7 +30,7 @@ function Showcase(props) {
      * Main function that fetches homepage API sets the homepage data
      */
     const setHomepageData = async () => {
-        let uri = "https://jiosaavn-api-codyandersan.vercel.app/modules?language=malayalam"
+        let uri = "https://jiosaavn-api-codyandersan.vercel.app/modules?language=tamil"
 
         props.setProgress(30)
         let data = await fetch(uri)
