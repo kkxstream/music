@@ -7,7 +7,7 @@ function Footer(props) {
                 <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                     <a className="flex title-font font-medium items-center dark:text-white text-black mb-4 md:mb-0">
 
-                        <img src={logo} className='h-8 w-110 rounded-xl' alt="" />
+                       
 
                         <span className="ml-3 text-xl">DreamlyMusic</span>
                     </a>
