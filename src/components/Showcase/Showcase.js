@@ -56,7 +56,7 @@ function Showcase(props) {
         setCharts(getShowcase(resp["data"]["charts"], "playlist"))
 
         //Artist:
-        setArtist(getShowcase(resp["data"]["artists"], "playlist"))
+        setArtists(getShowcase(resp["data"]["artists"], "artist"))
 
         props.setProgress(100)
     }
@@ -141,7 +141,7 @@ function Showcase(props) {
                     <Playlists playlists={playlists} setPlaylistId={props.setPlaylistId} />
 
                     <Heading title="Recommended Artist Stations" />
-                    <Playlists playlists={artists} setPlaylistId={props.setPlaylistId} />
+                    <Playlists playlists={artists} setArtistId={props.setArtistId} />
         
                 </div>
             </section>
