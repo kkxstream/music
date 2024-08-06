@@ -4,7 +4,7 @@ function About(props) {
 
     useEffect(() => {
         document.body.scrollTop = document.documentElement.scrollTop = 0;
-        document.title = "About - TuneStation"
+        document.title = "About - DreamlyMusic"
     }, [])
 
     return (
