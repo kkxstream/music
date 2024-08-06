@@ -63,7 +63,6 @@ function About(props) {
                             </div>
                         </div>
                     </div>
-                    
                     {/* Links */}
                     <div className="flex flex-col text-center mt-16 mb-1">
                         <h2 className="text-sm text-green-700 dark:text-green-400 tracking-widest font-medium title-font mb-1">RELATED LINKS</h2>
