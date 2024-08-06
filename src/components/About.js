@@ -63,39 +63,7 @@ function About(props) {
                             </div>
                         </div>
                     </div>
-
-
-                    {/* Tools Used */}
-                    <div className="flex flex-col text-center mt-16 mb-1">
-                        <h2 className="text-sm text-green-700 dark:text-green-400 tracking-widest font-medium title-font mb-1">BUILT WITH</h2>
-                    </div>
-                    <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2">
-                        <div className="p-2 sm:w-1/2 w-full">
-                            <div className="bg-cyan-800 hover:bg-cyan-900 rounded flex p-4 h-full items-center">
-
-                                <a href="https://react.dev/" target="_blank" rel="noopener noreferrer" className="flex justify-center w-full title-font font-medium text-white">ReactJS</a>
-                            </div>
-                        </div>
-                        <div className="p-2 sm:w-1/2 w-full">
-                            <div className="bg-sky-600 hover:bg-sky-800 rounded flex p-4 h-full items-center">
-
-                                <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" className="flex justify-center w-full title-font font-medium text-white">TailwindCSS</a>
-                            </div>
-                        </div>
-                        <div className="p-2 sm:w-1/2 w-full">
-                            <div className="bg-green-800 hover:bg-green-900 rounded flex p-4 h-full items-center">
-
-                                <a href="https://github.com/sumitkolhe/jiosaavn-api" target="_blank" rel="noopener noreferrer" className="flex justify-center w-full title-font font-medium  text-white">Sumit Kolhe's Unofficial JioSaavn API</a>
-                            </div>
-                        </div>
-                        <div className="p-2 sm:w-1/2 w-full">
-                            <div className="bg-gray-800 hover:bg-gray-900 rounded flex p-4 h-full items-center">
-
-                                <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer" className="flex justify-center w-full title-font font-medium text-white">Hosted on Vercel</a>
-                            </div>
-                        </div>
-
-                    </div>
+                    
                     {/* Links */}
                     <div className="flex flex-col text-center mt-16 mb-1">
                         <h2 className="text-sm text-green-700 dark:text-green-400 tracking-widest font-medium title-font mb-1">RELATED LINKS</h2>
